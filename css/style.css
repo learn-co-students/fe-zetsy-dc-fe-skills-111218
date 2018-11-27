@@ -4,10 +4,13 @@
 
 /*////////// Global Styles //////////*/
 
+html {display:block;}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: rgb(111,127,122);
 }
 
 .wrapper {
@@ -17,4 +20,28 @@ body {
 	padding: 0 45px 20px;
 }
 
+#featured {
+  margin: 0 auto;
+  border-style: solid;
+  border-color: grey;
+  border-width: 5px;
+}
+.column {
+  display: inline;
+  border-width: 1px;
+  border-color: rgb(111,127,122);
+  
+
+h1 {
+  font-size: 100px;
+  color: rgb(111,127,122);
+}
+
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+p {
+  text-align: left;
+}
 /* Write all remaining styles here */
