@@ -1,8 +1,17 @@
-/*////////////// Fonts //////////////*/
+/* fonts */
 
 /* link the web font used for the level 1 heading here */
 
-/*////////// Global Styles //////////*/
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 2px;
+	border-bottom: 1px solid #ccc;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: "Baskerville", serif;
+}
+
+/* global styles */
 
 body {
 	background: #F3EBE9;
@@ -18,3 +27,58 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h2 {
+  font-size: 2em;
+  color: #6f7f7a;
+}
+
+p {
+  font-size: 1em;
+  color; #555;
+}
+
+a {
+  text-decoration: none;
+  color: #46b4e8;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #349ccd;
+}
+
+header {
+  color: #6f7f7a;
+  margin-bottom: 5px;
+}
+
+main {
+  margin: 0 auto;
+}
+
+section {
+  margin: 0 auto;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.banner figure {
+  margin: 0 auto;
+}
+
+#necklace {
+  margin: 0 auto;
+}
+
+.press img {
+  outline: 5px solid #c7c7c7;
+  margin: 5px;
+}
+
+.press img:hover {
+  outline-color: #6f7f7a;
+}
